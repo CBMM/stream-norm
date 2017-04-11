@@ -1,0 +1,31 @@
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+Learning rate: 0.001
+Batch size: 200
+Hidden units: 100
+DAU: 1
+Cell type: SNGRU
+Traceback (most recent call last):
+  File "mnist.py", line 201, in <module>
+    tf.app.run()
+  File "/om/user/zhoul/anaconda2/envs/tf_cpu/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "mnist.py", line 197, in main
+    train()
+  File "mnist.py", line 122, in train
+    pred = RNN(x, weights, biases, args.cell_type, args.hyper_layer_norm)
+  File "mnist.py", line 114, in RNN
+    outputs, states = tf.nn.rnn(cell, x, dtype=tf.float32, scope=scope)
+  File "/om/user/zhoul/anaconda2/envs/tf_cpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py", line 226, in rnn
+    (output, state) = call_cell()
+  File "/om/user/zhoul/anaconda2/envs/tf_cpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py", line 213, in <lambda>
+    call_cell = lambda: cell(input_, state)
+  File "/om/user/zhoul/anaconda2/envs/tf_cpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py", line 815, in __call__
+    cur_inp, new_state = cell(cur_inp, cur_state)
+  File "/om/user/zhoul/streaming-norm/tensorflow/layers.py", line 65, in __call__
+    input_below_ = sn(input_below_, s1, b1, name='g_in')
+  File "/om/user/zhoul/streaming-norm/tensorflow/layers.py", line 20, in sn
+    return normalised_input * s + b
+NameError: global name 'normalised_input' is not defined

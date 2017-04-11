@@ -1,0 +1,919 @@
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+Learning rate: 0.001
+Batch size: 200
+Hidden units: 100
+DAU: 1
+Cell type: SNGRU
+alpha, beta, kappa: 
+[0.7, 0.3]
+[0.7, 0.3, 0]
+[0.7, 0.3, 0.7, 0.3]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+Traceback (most recent call last):
+  File "mnist.py", line 201, in <module>
+    tf.app.run()
+  File "/om/user/zhoul/anaconda2/envs/tf_cpu/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 30, in run
+    sys.exit(main(sys.argv))
+  File "mnist.py", line 197, in main
+    train()
+  File "mnist.py", line 142, in train
+    init = tf.global_variables_initializer()
+AttributeError: 'module' object has no attribute 'global_variables_initializer'

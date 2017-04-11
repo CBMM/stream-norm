@@ -1,0 +1,1038 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K20m
+major: 3 minor: 5 memoryClockRate (GHz) 0.7055
+pciBusID 0000:03:00.0
+Total memory: 4.66GiB
+Free memory: 4.59GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20m, pci bus id: 0000:03:00.0)
+W tensorflow/core/framework/op_kernel.cc:975] Failed precondition: Attempting to use uninitialized value RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag
+	 [[Node: RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag/read = Identity[T=DT_FLOAT, _device="/job:localhost/replica:0/task:0/gpu:0"](RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag)]]
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+Learning rate: 0.001
+Batch size: 200
+Hidden units: 100
+DAU: 1
+Cell type: LSTM
+alpha, beta, kappa: 
+[0.7, 0.3]
+[0.7, 0.3, 0]
+[0.7, 0.3, 0.7, 0.3]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+[0, 1]
+[0, 0, 1]
+[0, 1, 0, 1]
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+weight updated.......
+Variable:0
+Variable_1:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s1:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s2:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s3:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s4:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b1:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b2:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b3:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b4:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/out_1/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insv/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/out_2/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsv/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/out_3/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/out_4/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsv/g_w_updated_flag:0
+c_insv/g_w_updated_flag:0
+c_insm/g_w_updated_flag:0
+c_stsv/g_w_updated_flag:0
+c_stsm/g_w_updated_flag:0
+g_insv/g_w_updated_flag:0
+g_stsv/g_w_updated_flag:0
+g_insm/g_w_updated_flag:0
+g_stsm/g_w_updated_flag:0
+Traceback (most recent call last):
+  File "mnist.py", line 201, in <module>
+    tf.app.run()
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "mnist.py", line 197, in main
+    train()
+  File "mnist.py", line 159, in train
+    grad_vals.append(sess.run([grad[0] for grad in grads], feed_dict={x: batch_x, y: batch_y}))
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 766, in run
+    run_metadata_ptr)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 964, in _run
+    feed_dict_string, options, run_metadata)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1014, in _do_run
+    target_list, options, run_metadata)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1034, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.FailedPreconditionError: Attempting to use uninitialized value RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag
+	 [[Node: RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag/read = Identity[T=DT_FLOAT, _device="/job:localhost/replica:0/task:0/gpu:0"](RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag)]]
+	 [[Node: RNN/MultiRNNCell_24/Cell0/SNGRUCell/Gates/Sqrt/_1031 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_21907_RNN/MultiRNNCell_24/Cell0/SNGRUCell/Gates/Sqrt", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+
+Caused by op u'RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag/read', defined at:
+  File "mnist.py", line 201, in <module>
+    tf.app.run()
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 43, in run
+    sys.exit(main(sys.argv[:1] + flags_passthrough))
+  File "mnist.py", line 197, in main
+    train()
+  File "mnist.py", line 122, in train
+    pred = RNN(x, weights, biases, args.cell_type, args.hyper_layer_norm)
+  File "mnist.py", line 114, in RNN
+    outputs, states = tf.nn.rnn(cell, x, dtype=tf.float32, scope=scope)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py", line 226, in rnn
+    (output, state) = call_cell()
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn.py", line 213, in <lambda>
+    call_cell = lambda: cell(input_, state)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/rnn_cell.py", line 815, in __call__
+    cur_inp, new_state = cell(cur_inp, cur_state)
+  File "/om/user/zhoul/streaming-norm/tensorflow/layers.py", line 76, in __call__
+    input_below_x = sn(input_below_x, s3, b3, name='c_in')
+  File "/om/user/zhoul/streaming-norm/tensorflow/layers.py", line 18, in sn
+    v_sqrt_stream = streaming.streamfb(v_sqrt, name + 'sv')
+  File "/om/user/zhoul/streaming-norm/tensorflow/streaming.py", line 150, in streamfb
+    s_w_updated_flag  = get_streaming_variable(name, 's_w_updated_flag', shape=[], trainable=True, init_val=1)
+  File "/om/user/zhoul/streaming-norm/tensorflow/streaming.py", line 58, in get_streaming_variable
+    trainable=trainable
+  File "/om/user/zhoul/streaming-norm/tensorflow/streaming.py", line 43, in get_scope_variable
+    v = tf.get_variable(var, **kwargs)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 1024, in get_variable
+    custom_getter=custom_getter)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 850, in get_variable
+    custom_getter=custom_getter)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 346, in get_variable
+    validate_shape=validate_shape)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 331, in _true_getter
+    caching_device=caching_device, validate_shape=validate_shape)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variable_scope.py", line 677, in _get_single_variable
+    expected_shape=shape)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variables.py", line 224, in __init__
+    expected_shape=expected_shape)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/variables.py", line 367, in _init_from_args
+    self._snapshot = array_ops.identity(self._variable, name="read")
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/ops/gen_array_ops.py", line 1424, in identity
+    result = _op_def_lib.apply_op("Identity", input=input, name=name)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py", line 759, in apply_op
+    op_def=op_def)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 2240, in create_op
+    original_op=self._default_original_op, op_def=op_def)
+  File "/om/user/zhoul/anaconda2/envs/tf_gpu/lib/python2.7/site-packages/tensorflow/python/framework/ops.py", line 1128, in __init__
+    self._traceback = _extract_stack()
+
+FailedPreconditionError (see above for traceback): Attempting to use uninitialized value RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag
+	 [[Node: RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag/read = Identity[T=DT_FLOAT, _device="/job:localhost/replica:0/task:0/gpu:0"](RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag)]]
+	 [[Node: RNN/MultiRNNCell_24/Cell0/SNGRUCell/Gates/Sqrt/_1031 = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/cpu:0", send_device="/job:localhost/replica:0/task:0/gpu:0", send_device_incarnation=1, tensor_name="edge_21907_RNN/MultiRNNCell_24/Cell0/SNGRUCell/Gates/Sqrt", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/cpu:0"]()]]
+

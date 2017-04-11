@@ -1,0 +1,167 @@
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K20m
+major: 3 minor: 5 memoryClockRate (GHz) 0.7055
+pciBusID 0000:02:00.0
+Total memory: 4.66GiB
+Free memory: 4.59GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20m, pci bus id: 0000:02:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2057 get requests, put_count=1711 evicted_count=1000 eviction_rate=0.584454 and unsatisfied allocation rate=0.702965
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 2057 get requests, put_count=2038 evicted_count=1000 eviction_rate=0.490677 and unsatisfied allocation rate=0.506563
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4114 get requests, put_count=3949 evicted_count=1000 eviction_rate=0.253229 and unsatisfied allocation rate=0.297521
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+Extracting ../data/train-images-idx3-ubyte.gz
+Extracting ../data/train-labels-idx1-ubyte.gz
+Extracting ../data/t10k-images-idx3-ubyte.gz
+Extracting ../data/t10k-labels-idx1-ubyte.gz
+Learning rate: 0.001
+Batch size: 200
+Hidden units: 100
+DAU: 1
+Cell type: SNGRU
+Variable:0
+Variable_1:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s1:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s2:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s3:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/s4:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b1:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b2:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b3:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/Layer_Parameters/b4:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/out_1/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_insv/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/out_2/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Gates/g_stsv/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/out_3/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_insv/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/out_4/Matrix:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsm/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsm/g_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsv/s_w_updated_flag:0
+RNN/MultiRNNCell/Cell0/SNGRUCell/Candidate/c_stsv/g_w_updated_flag:0
+c_insv/g_w_updated_flag:0
+c_insm/g_w_updated_flag:0
+c_stsv/g_w_updated_flag:0
+c_stsm/g_w_updated_flag:0
+g_insv/g_w_updated_flag:0
+g_stsv/g_w_updated_flag:0
+g_insm/g_w_updated_flag:0
+g_stsm/g_w_updated_flag:0
+Iter 2000, Minibatch Loss= 3.079787, Training Accuracy= 0.28500
+Testing Accuracy: 0.226562
+Iter 4000, Minibatch Loss= 2.893466, Training Accuracy= 0.37500
+Testing Accuracy: 0.328125
+Iter 6000, Minibatch Loss= 1.671698, Training Accuracy= 0.56000
+Testing Accuracy: 0.429688
+Iter 8000, Minibatch Loss= 2.265789, Training Accuracy= 0.48500
+Testing Accuracy: 0.484375
+Iter 10000, Minibatch Loss= 1.750071, Training Accuracy= 0.50500
+Testing Accuracy: 0.515625
+Iter 12000, Minibatch Loss= 1.816113, Training Accuracy= 0.50500
+Testing Accuracy: 0.554688
+Iter 14000, Minibatch Loss= 1.359448, Training Accuracy= 0.62000
+Testing Accuracy: 0.554688
+Iter 16000, Minibatch Loss= 1.604446, Training Accuracy= 0.58000
+Testing Accuracy: 0.632812
+Iter 18000, Minibatch Loss= 1.247733, Training Accuracy= 0.60500
+Testing Accuracy: 0.625
+Iter 20000, Minibatch Loss= 1.332317, Training Accuracy= 0.60500
+Testing Accuracy: 0.59375
+Iter 22000, Minibatch Loss= 1.295137, Training Accuracy= 0.59500
+Testing Accuracy: 0.617188
+Iter 24000, Minibatch Loss= 1.561457, Training Accuracy= 0.52500
+Testing Accuracy: 0.632812
+Iter 26000, Minibatch Loss= 1.421552, Training Accuracy= 0.56500
+Testing Accuracy: 0.632812
+Iter 28000, Minibatch Loss= 1.647391, Training Accuracy= 0.54500
+Testing Accuracy: 0.53125
+Iter 30000, Minibatch Loss= 1.782554, Training Accuracy= 0.47500
+Testing Accuracy: 0.546875
+Iter 32000, Minibatch Loss= 1.773434, Training Accuracy= 0.52000
+Testing Accuracy: 0.578125
+Iter 34000, Minibatch Loss= 1.350644, Training Accuracy= 0.55500
+Testing Accuracy: 0.585938
+Iter 36000, Minibatch Loss= 1.153328, Training Accuracy= 0.65000
+Testing Accuracy: 0.578125
+Iter 38000, Minibatch Loss= 1.737803, Training Accuracy= 0.44500
+Testing Accuracy: 0.5625
+Iter 40000, Minibatch Loss= 2.042076, Training Accuracy= 0.41500
+Testing Accuracy: 0.445312
+Iter 42000, Minibatch Loss= 1.814530, Training Accuracy= 0.45500
+Testing Accuracy: 0.46875
+Iter 44000, Minibatch Loss= 2.152231, Training Accuracy= 0.37000
+Testing Accuracy: 0.5
+Iter 46000, Minibatch Loss= 1.612093, Training Accuracy= 0.52000
+Testing Accuracy: 0.546875
+Iter 48000, Minibatch Loss= 1.756864, Training Accuracy= 0.48500
+Testing Accuracy: 0.539062
+Iter 50000, Minibatch Loss= 1.979047, Training Accuracy= 0.42500
+Testing Accuracy: 0.539062
+Iter 52000, Minibatch Loss= 1.470208, Training Accuracy= 0.52000
+Testing Accuracy: 0.5625
+Iter 54000, Minibatch Loss= 1.062298, Training Accuracy= 0.67000
+Testing Accuracy: 0.539062
+Iter 56000, Minibatch Loss= 1.420525, Training Accuracy= 0.53000
+Testing Accuracy: 0.539062
+Iter 58000, Minibatch Loss= 1.397279, Training Accuracy= 0.54500
+Testing Accuracy: 0.539062
+Iter 60000, Minibatch Loss= 1.523541, Training Accuracy= 0.53500
+Testing Accuracy: 0.554688
+Iter 62000, Minibatch Loss= 1.474073, Training Accuracy= 0.52000
+Testing Accuracy: 0.5625
+Iter 64000, Minibatch Loss= 1.513522, Training Accuracy= 0.54500
+Testing Accuracy: 0.5625
+Iter 66000, Minibatch Loss= 1.320680, Training Accuracy= 0.57500
+Testing Accuracy: 0.585938
+Iter 68000, Minibatch Loss= 1.363692, Training Accuracy= 0.61500
+Testing Accuracy: 0.617188
+Iter 70000, Minibatch Loss= 1.310119, Training Accuracy= 0.60500
+Testing Accuracy: 0.609375
+Iter 72000, Minibatch Loss= 1.470990, Training Accuracy= 0.50500
+Testing Accuracy: 0.601562
+Iter 74000, Minibatch Loss= 1.269432, Training Accuracy= 0.63000
+Testing Accuracy: 0.601562
+Iter 76000, Minibatch Loss= 1.250472, Training Accuracy= 0.58000
+Testing Accuracy: 0.59375
+Iter 78000, Minibatch Loss= 1.358603, Training Accuracy= 0.55000
+Testing Accuracy: 0.585938
+Iter 80000, Minibatch Loss= 1.175933, Training Accuracy= 0.63500
+Testing Accuracy: 0.585938
+Iter 82000, Minibatch Loss= 1.238639, Training Accuracy= 0.60500
+Testing Accuracy: 0.578125
+Iter 84000, Minibatch Loss= 1.075747, Training Accuracy= 0.64500
+Testing Accuracy: 0.585938
+Iter 86000, Minibatch Loss= 1.124447, Training Accuracy= 0.63000
+Testing Accuracy: 0.601562
+Iter 88000, Minibatch Loss= 1.216200, Training Accuracy= 0.63000
+Testing Accuracy: 0.609375
+Iter 90000, Minibatch Loss= 1.389180, Training Accuracy= 0.55500
+Testing Accuracy: 0.59375
+Iter 92000, Minibatch Loss= 1.312510, Training Accuracy= 0.49500
+Testing Accuracy: 0.609375
+Iter 94000, Minibatch Loss= 1.241697, Training Accuracy= 0.63500
+Testing Accuracy: 0.609375
+Iter 96000, Minibatch Loss= 1.201948, Training Accuracy= 0.59000
+Testing Accuracy: 0.609375
+Iter 98000, Minibatch Loss= 1.235873, Training Accuracy= 0.59500
+Testing Accuracy: 0.601562
+Optimization Finished!
+Testing Accuracy: 0.609375
